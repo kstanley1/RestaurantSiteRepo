@@ -1,0 +1,72 @@
+<!DOCTYPE html> 
+<!--
+    Name: Kayla Stanley
+    Date Created: 1/7/19
+    Most recent revision: 1/7/19
+-->
+<html lang="en"> 
+    <head> 
+        <title>Contact Us</title>	
+    </head> 
+    
+    <body>
+        <header>
+            <h1>Kayla's Country Kitchen</h1>
+        </header>
+        <hr/>
+        <nav> <!-- The nav element will include navigation buttons or links -->
+		    <p>
+			    <a href="home.html">Home</a>
+			    <a href="menu.html">Menu</a>
+			    <a href="contactus.html">Contact Us</a>
+            </p>
+        </nav>
+        <hr/>
+        <form action="submit.html" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br/>
+            
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br/>
+
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone"><br/>
+
+            <label for="reason">Reason for Inquiry:</label>
+            <select id="reason" name="reason">
+                <option value="catering" selected>Catering</option>
+                <option value="privateParty">Private Party</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>
+            </select><br/>
+
+            <label for="info">Additional Information:</label>
+            <textarea id="info" name="info"></textarea><br/>
+
+            <label>Have you been to the restaurant?</label>
+            <input type="radio" id="choiceNo" name="beenBefore" value="no" checked/>
+            <label for="choiceNo">No</label>
+            <input type="radio" id="choiceYes" name="beenBefore" value="yes"/>
+            <label for="choiceYes">Yes</label><br/>
+
+            <label>Best days to contact you:</label>
+            <input type="checkbox" id="monday" name="bestDay" value="M"/>
+            <label for="monday">M</label>
+            <input type="checkbox" id="tuesday" name="bestDay" value="T"/>
+            <label for="tuesday">T</label>
+            <input type="checkbox" id="wednesday" name="bestDay" value="W"/>
+            <label for="wednesday">W</label>
+            <input type="checkbox" id="thursday" name="bestDay" value="Th"/>
+            <label for="thursday">Th</label>
+            <input type="checkbox" id="friday" name="bestDay" value="F"/>
+            <label for="friday">F</label><br/>
+            
+            <input type="submit" name="submit" value="Send Request"/>
+        </form>
+        <hr/>
+        <footer>
+            300 Centerview Drive, Brentwood, TN, 37027<br />
+            372-729-2854
+        </footer>
+    </body> 
+</html
